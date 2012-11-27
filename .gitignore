@@ -1,6 +1,64 @@
-*.class
-
 # Package Files #
 *.jar
 *.war
 *.ear
+
+
+#Ignore log files
+log
+chromedriver.log
+/chromedriver.log
+/log
+/log/**/*
+/**/*.log
+
+#Ignore generated files, including surefire reports
+/target
+/target/**/*
+
+#Ignore Screen shots
+######################
+screenshot/**/*
+
+#Ignore tmp folder
+######################
+/tmp
+tmp/**/*
+
+#Ignore tmp files
+######################
+*~
+
+#Ignore bin folder
+######################
+/bin
+/bin/**/*
+
+#Ignore Eclipse project files
+######################
+/.project
+.project/**/*
+.settings/**/*
+/.settings
+.classpath
+/.classpath
+testprofile.*
+
+#Ignore IntelliJ project files
+######################
+.idea/**/*
+.idea/*
+.idea
+*.iml
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
