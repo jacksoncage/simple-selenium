@@ -3,19 +3,20 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 /**
- * Created by IntelliJ IDEA.
- * User: lovenybe
- * Date: 2012-11-27
- * Time: 10:40
+ *
+ * A simple junit test. Open and url with Firefox browser and get's site title.
+ *
+ * @author love.nyberg@lovemusic.se
  */
 public class testDriver {
 
 	@Test
 	public void startSite() {
+		String url = "https://lovemusic.se";
 		WebDriver driver = new FirefoxDriver();
-		driver.get("http://viaplay.se");
+		driver.get(url);
 		String title = driver.getTitle();
-		System.out.print(title);
+		System.out.println("The title of " + url + " is: " + title);
 		driver.quit();
 	}
 }
