@@ -6,7 +6,7 @@ A simple [selenium webdriver](http://docs.seleniumhq.org/projects/webdriver/) pr
 Usage
 ---------------
 From terminal:
-    `mvn compile test`
+    `mvn compile test -Dtest=testDriver`
 
 
 Dependency
