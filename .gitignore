@@ -50,6 +50,7 @@ testprofile.*
 .idea/*
 .idea
 *.iml
+atlassian-ide-plugin.xml
 
 # OS generated files #
 ######################
